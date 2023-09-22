@@ -366,14 +366,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg-112.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.25);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -481,6 +481,7 @@ section {
 
 .section-title {
   text-align: center;
+/*  text-align: left;*/
   padding-bottom: 30px;
 }
 
@@ -517,7 +518,8 @@ section {
 
 @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
+    text-align: left;
+    width: 100%;
   }
 }
 
